@@ -1,0 +1,47 @@
+@use "variables.scss" as *;
+
+@mixin flex-property {
+  display: flex;
+  align-items: center;
+}
+
+@mixin drop-down-triangle {
+  content: "";
+  width: 13px;
+  height: 13px;
+  background: #ffffff;
+  position: absolute;
+  top: -7px;
+  right: 20px;
+  transform: rotate(45deg);
+  border-left: 1px solid $light-blue-color;
+  border-top: 1px solid $light-blue-color;
+}
+
+@mixin side-bar-button {
+  @include flex-property;
+  gap: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px 15px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+@mixin card-properties {
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+  background-color: #ffffff;
+}
+
+@mixin recent-activity-card {
+  content: "";
+  position: absolute;
+  left: 3px;
+  top: 14px;
+  width: 5px;
+  height: 100px;
+  background-color: $light-grey-color;
+}
