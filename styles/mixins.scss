@@ -40,8 +40,13 @@
   content: "";
   position: absolute;
   left: 3px;
-  top: 14px;
+  top: 15px;
   width: 5px;
-  height: 55px;
   background-color: $light-grey-color;
+}
+@mixin recent-icon-properties {
+  font-size: 10px;
+  margin-left: 25px;
+  margin-top: 3px;
+  position: relative;
 }

@@ -550,36 +550,55 @@
   font-size: 15px;
   margin: 0;
 }
-.main-block .right-side-main .cards-block .card-main-block .recent-activity-card .activity-block .activity-item i {
+.main-block .right-side-main .cards-block .card-main-block .recent-activity-card .activity-block .activity-item .green {
   font-size: 10px;
   margin-left: 25px;
   margin-top: 3px;
   position: relative;
   color: rgb(25, 135, 84);
 }
-.main-block .right-side-main .cards-block .card-main-block .recent-activity-card .activity-block .activity-item i::after {
+.main-block .right-side-main .cards-block .card-main-block .recent-activity-card .activity-block .activity-item .green::after {
   content: "";
   position: absolute;
   left: 3px;
-  top: 14px;
+  top: 5px;
   width: 5px;
-  height: 55px;
   background-color: #6C757D;
+  height: 440px;
 }
 .main-block .right-side-main .cards-block .card-main-block .recent-activity-card .activity-block .activity-item .red {
+  font-size: 10px;
+  margin-left: 25px;
+  margin-top: 3px;
+  position: relative;
   color: #DC3545;
 }
-.main-block .right-side-main .cards-block .card-main-block .recent-activity-card .activity-block .activity-item .red::after {
-  height: 51px !important;
-}
 .main-block .right-side-main .cards-block .card-main-block .recent-activity-card .activity-block .activity-item .blue {
+  font-size: 10px;
+  margin-left: 25px;
+  margin-top: 3px;
+  position: relative;
   color: rgb(13, 110, 253);
 }
 .main-block .right-side-main .cards-block .card-main-block .recent-activity-card .activity-block .activity-item .light-blue {
+  font-size: 10px;
+  margin-left: 25px;
+  margin-top: 3px;
+  position: relative;
   color: #00ffff;
 }
 .main-block .right-side-main .cards-block .card-main-block .recent-activity-card .activity-block .activity-item .yellow {
+  font-size: 10px;
+  margin-left: 25px;
+  margin-top: 3px;
+  position: relative;
   color: #ffd700;
+}
+.main-block .right-side-main .cards-block .card-main-block .recent-activity-card .activity-block .activity-item .black {
+  font-size: 10px;
+  margin-left: 25px;
+  margin-top: 3px;
+  position: relative;
 }
 .main-block .right-side-main .cards-block .card-main-block .recent-activity-card .activity-block .activity-item .activity-para {
   font-size: 15px;
@@ -779,6 +798,7 @@
 }
 .main-block .right-side-main .profile-block .profile-card-main .profile-card-2 .tabs-section .over-view-main .over-view-data .para {
   font-size: 15px;
+  color: #919191;
 }
 .main-block .right-side-main .profile-block .profile-card-main .profile-card-2 .tabs-section .over-view-main .over-view-data .row {
   margin-top: 20px;
@@ -895,6 +915,145 @@
   color: #fff;
   transition: 0.4s;
   border-radius: 4px;
+}
+.main-block .right-side-main .register-card {
+  padding-bottom: 20px;
+}
+.main-block .right-side-main .register-card .head-part .main-title {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0px;
+}
+.main-block .right-side-main .register-card .head-part .main-title img {
+  max-height: 26px;
+  margin-right: 6px;
+}
+.main-block .right-side-main .register-card .head-part .main-title span {
+  font-size: 26px;
+  font-weight: 600;
+  color: #023B6D;
+}
+.main-block .right-side-main .register-card .register-card-content {
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+  background-color: #fff;
+}
+.main-block .right-side-main .register-card .register-card-content .create-title {
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  color: #023B6D;
+  padding-top: 20px;
+  margin-bottom: 5px;
+}
+.main-block .right-side-main .register-card .register-card-content .register-para {
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.main-block .right-side-main .register-card .register-card-content form .input-labels {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+.main-block .right-side-main .register-card .register-card-content form .register-inputs {
+  width: 100%;
+  width: 100%;
+  padding: 6px 12px;
+  font-weight: 400;
+  border: 1px solid #919191;
+  border-radius: 5px;
+}
+.main-block .right-side-main .register-card .register-card-content form .terms-block {
+  display: flex;
+  align-items: flex-start;
+  gap: 4px;
+}
+.main-block .right-side-main .register-card .register-card-content form .terms-block .terms-checkbox {
+  width: 18px;
+  height: 18px;
+  margin: 3px;
+  border-color: #919191;
+}
+.main-block .right-side-main .register-card .register-card-content form .terms-block a {
+  text-decoration: none;
+}
+.main-block .right-side-main .register-card .register-card-content form .create-btn {
+  width: 100%;
+  padding: 6px 12px;
+  border-radius: 5px;
+  background-color: rgb(13, 110, 253);
+  border: none;
+  color: #fff;
+}
+.main-block .right-side-main .register-card .register-card-content form .already-account {
+  font-size: 15px;
+  margin: 0;
+}
+.main-block .right-side-main .register-card .register-card-content form .already-account a {
+  text-decoration: none;
+}
+.main-block .right-side-main .register-card .bottom-para {
+  font-size: 16px;
+  text-align: center;
+  margin: 14px 0px;
+}
+.main-block .right-side-main .register-card .bottom-para a {
+  text-decoration: none;
+}
+.main-block .right-side-main .error-block {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.main-block .right-side-main .error-block .error-code {
+  font-size: 180px;
+  font-weight: 700;
+  color: rgb(13, 110, 253);
+  margin-bottom: 0;
+  line-height: 150px;
+}
+.main-block .right-side-main .error-block .error-msg {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #023B6D;
+}
+.main-block .right-side-main .error-block .home-btn {
+  background: #51678f;
+  color: #fff;
+  padding: 8px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.main-block .right-side-main .error-block img {
+  max-width: 50%;
+  padding: 48px 0px;
+}
+.main-block .right-side-main .error-block .error-para a {
+  text-decoration: none;
+}
+.main-block .right-side-main .blank-block .blank-card .card-data {
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+  background-color: #ffffff;
+  text-align: left;
+  margin-bottom: 50px;
+}
+.main-block .right-side-main .blank-block .blank-card .card-data .blank-card-heading {
+  padding-bottom: 12px;
+  font-size: 19px;
+  font-weight: 600;
+  color: #023B6D;
+}
+.main-block .right-side-main .blank-block .blank-card .card-data .blank-card-para {
+  font-size: 15px;
+  color: #6C757D;
+  margin-bottom: 15px;
 }
 .main-block footer {
   padding: 20px 0px;
