@@ -349,6 +349,12 @@
   font-size: 15px;
   color: #023B6D;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.main-block .aside-block aside .side-bar .side-bar-item .dropdown .dropdown-menu .dropdown-item i {
+  font-size: 5px;
+  margin-right: 10px;
 }
 .main-block .aside-block aside .side-bar .side-bar-item .dropdown .dropdown-menu .dropdown-item:hover {
   color: rgb(13, 110, 253);
@@ -561,7 +567,7 @@
   content: "";
   position: absolute;
   left: 3px;
-  top: 5px;
+  top: 15px;
   width: 5px;
   background-color: #6C757D;
   height: 440px;

@@ -1,0 +1,47 @@
+
+
+.Log-in{
+  width: 250px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: aqua;
+  border-radius: 5px;
+  h1{
+    font-size: 40px;
+    text-align: center;
+    color:deeppink;
+  }
+ .input-block{
+  margin-bottom: 15px;
+  label{
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  input{
+    width: 100%;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: none;
+    box-sizing: border-box;
+    border: 1px solid grey;
+    &:active{
+      border: none;
+      outline: none;
+    }
+  }
+ }
+ .login{
+  width: 100%;
+  padding: 4px 12px;
+  background-color: blue;
+  color: white;
+  border-radius: 4px;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  margin-top: 5px;
+  cursor: pointer;
+ }
+}
